@@ -15,7 +15,18 @@ class SampleCollection<T>
         set { arr[i] = value; }
     }
 
-    public int NextIndex { get => nextIndex;  }
+    public int NextIndex
+    {
+        get
+        {
+            return nextIndex;
+        }
+
+        set
+        {
+            //nextIndex = value;
+        }
+    }
 
     public void Add(T value)
     {
