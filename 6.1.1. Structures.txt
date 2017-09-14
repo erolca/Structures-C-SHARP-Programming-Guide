@@ -1,0 +1,21 @@
+
+
+A struct is similar to a class, but is a value type, not a reference type.
+
+Here is the general form of a struct:
+
+struct name : interfaces {
+        // member declarations
+    }
+
+Structures cannot inherit other structures or classes
+Structures cannot be used as a base for other structures or classes.
+A structure can implement one or more interfaces.
+Structure members can be methods, fields, indexers, properties, operator methods, and events.
+Structures can also define constructors, but not destructors.
+You cannot define a default (parameterless) constructor for a structure.
+A default constructor is automatically defined for all structures, and this default constructor can't be changed.
+Structure members cannot be specified as abstract, virtual, or protected.
+When new is used, the specified constructor is called.
+When new is not used, the object is still created, but it is not initialized.
+When you assign one structure to another, a copy of the structure object is made.
